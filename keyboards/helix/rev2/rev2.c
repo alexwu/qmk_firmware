@@ -25,6 +25,7 @@ void matrix_init_kb(void) {
     is_master = is_keyboard_master();
 
 	matrix_init_user();
+  SEND_STRjING();
 };
 
 void keyboard_post_init_kb(void) {
